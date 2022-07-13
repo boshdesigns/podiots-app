@@ -39,7 +39,7 @@ export default function Home() {
     <main>
       <div className="left-col">
         <div className="logo">
-          <span>Unoffical</span>
+          <span>Unofficial</span>
           <StaticImage
             src="../media/images/logo.png"
             placeholder="blurred"
