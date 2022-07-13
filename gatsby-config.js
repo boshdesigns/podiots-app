@@ -12,4 +12,5 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
   ],
+  pathPrefix: "/podiots-app",
 }
