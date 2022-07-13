@@ -9,7 +9,6 @@ const Dropdown = ({
   updateSelectDropdown,
   isActive,
 }) => {
-  console.log("isActive", isActive)
   const setIsActiveState = () => {
     updateSelectDropdown(type)
 
