@@ -1,0 +1,62 @@
+@import url("https://use.typekit.net/hoh3tno.css");
+
+body {
+  background-color: #fed71e;
+  background-image: url("../media/images/bg-texture.png");
+  font-family: "marvin", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #333;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    max-width: 800px;
+    padding-left: 105px;
+  }
+
+  @media (min-width: 992px) {
+    max-width: 1024px;
+  }
+
+  @media (min-width: 1300px) {
+    max-width: 1200px;
+  }
+
+  &--no-padding {
+    padding: 0;
+  }
+
+  > .conatiner {
+    width: 100%;
+  }
+}
+
+a {
+  color: #fff;
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+
+  & .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
